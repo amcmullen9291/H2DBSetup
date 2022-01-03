@@ -9,7 +9,7 @@ spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=sa
 spring.datasource.password=
 
-(You only need the first part for the JDBC URL  in the HS Console login. ie: "jdbc:h2:mem:memDb")
+(You only need the first part for the JDBC URL  in the H2 Console login. ie: "jdbc:h2:mem:memDb")
 
 in file mode credentials: (changes to above code)
 
