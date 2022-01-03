@@ -16,3 +16,6 @@ in file mode credentials: (changes to above code)
 spring.datasource.url=jdbc:h2:file:./data/fileDb
 spring.jpa.hibernate.ddl-auto=update
 
+Note: the URL path after the word 'file:' ('./data/fileDb' above) is where the database is stored.
+That line of code creates a directory for you and puts the file in it.
+
