@@ -1,0 +1,18 @@
+# H2andPromise.all
+
+in memory credentials:
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2
+
+spring.datasource.url=jdbc:h2:mem:memDb;DB_CLOSE_DELAY=-1
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+
+(You only need the first part for the JDBC URL  in the HS Console login. ie: "jdbc:h2:mem:memDb")
+
+in file mode credentials: (changes to above code)
+
+spring.datasource.url=jdbc:h2:file:./data/fileDb
+spring.jpa.hibernate.ddl-auto=update
+
